@@ -41,7 +41,7 @@
 
 .u-section-1 .u-group-elements-1 {
   width: 540px;
-  min-height: 290px;
+  min-height: 294px;
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
@@ -60,10 +60,11 @@
   text-transform: uppercase;
   letter-spacing: 1px;
   transition-duration: 0.5s;
-  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
   border-style: solid;
   --radius: 50px;
-  margin: 17px 186px 0 171px;
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
+  margin: 17px auto 0 171px;
+  padding: 10px 30px;
 }
 
 .u-section-1 .u-btn-2 {
@@ -71,9 +72,9 @@
   text-transform: uppercase;
   letter-spacing: 1px;
   transition-duration: 0.5s;
-  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
   --radius: 50px;
   border-style: solid;
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
   margin: -45px 384px 0 0;
 }
 
